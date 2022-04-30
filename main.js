@@ -60,6 +60,7 @@ function draw() {
 		InNumberleftWristY = Number(leftWristY);
 		new_leftWristY = floor(InNumberleftWristY *2);
 		leftWristY_divide_1000 = new_leftWristY/1000;
+		  Volume = leftWristY_divide_1000 *2 ;
 		document.getElementById("volume").innerHTML = "Volume = " + leftWristY_divide_1000;		
 		song.setVolume(leftWristY_divide_1000);	
 	}
