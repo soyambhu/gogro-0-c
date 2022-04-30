@@ -2,7 +2,7 @@ song = "";
 
 function preload()
 {
-	song = loadSound("kgf 2 - mother emotional sad bgm.mp3");
+	song = loadSound("music.mp3");
 }
 
 scoreRightWrist = 0;
