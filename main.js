@@ -1,15 +1,18 @@
 song = "";
-rightWristX = 0;
-rightWristY = 0;
-leftWristX = 0;
-leftWristY = 0;
-scoreRightWrist = 0;
-scoreLeftWrist = 0;
 
 function preload()
 {
 	song = loadSound("music.mp3");
 }
+
+scoreRightWrist = 0;
+scoreLeftWrist = 0;
+
+rightWristX = 0;
+rightWristY = 0;
+
+leftWristX = 0;
+leftWristY = 0;
 
 function setup() {
 	canvas =  createCanvas(600, 500);
@@ -51,7 +54,6 @@ function draw() {
 	fill("#FF0000");
 	stroke("#FF0000");
 
-	
 	if(scoreLeftWrist > 0.2)
 	{
 		circle(leftWristX,leftWristY,20);
